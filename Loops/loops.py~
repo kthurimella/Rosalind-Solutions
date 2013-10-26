@@ -1,0 +1,21 @@
+import sys
+
+
+def main():
+    
+    f = open(sys.argv[1], 'r')
+
+    integers = f.readline()
+    integers = integers.split()
+
+    a = integers[0]
+    b = integers[1]
+
+    print a, b
+
+
+
+
+
+if __name__ == "__main__":
+    main()
